@@ -1,8 +1,8 @@
 package Basics.OOPS;
 
 abstract public class Card implements PaymentMethod {
-    private String cardNumber;
-    private String userName;
+    protected String cardNumber;
+    protected String userName;
 
     public Card(String cardNumber, String userName) {
         this.cardNumber = cardNumber;
